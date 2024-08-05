@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="data.js" defer></script>
+    <script src="main.js" defer></script>
+</head>
+<body onload="randomPerson()">
+    <div class="idCard">
+        <img id ="photo" src="https://randomuser.me/api/portraits/women/57.jpg">
+        <div id="info">
+            <h2 id="name">Name</h2>
+            <p id="gender">Gender: </p>
+            <p id="birth">DOB: </p>
+            <p id="age">Age: </p>
+            <p id="address">Address: </p>
+            <p id="email">Email: </p>
+            <p id="phone">Phone: </p>
+        </div>
+    </div>
+    
+    <button id="random">New Person</button>
+</body>
+</html>

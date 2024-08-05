@@ -1,0 +1,46 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    padding: 20px;
+}
+
+
+.idCard {
+    background-color: brown;
+    border: black 2px solid;
+    width: 600px;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.idCard img {
+    height: 50%;
+    border-radius: 10px;
+    border: black 2px solid;
+    margin: 20px;
+}
+
+#random {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: darkgray;
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 350px;
+    height: 50px;
+}
+
+#random:hover {
+    background-color: green;
+}
