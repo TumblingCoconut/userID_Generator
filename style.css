@@ -44,3 +44,17 @@ body {
 #random:hover {
     background-color: green;
 }
+
+@media (max-width:600px) {
+    .idCard{
+        flex-direction: column;
+        width: 80%;
+        height: auto;
+        font-size: 15px;
+    }
+
+    .idCard img{
+        width: 40%;
+        height: auto;
+    }
+}
